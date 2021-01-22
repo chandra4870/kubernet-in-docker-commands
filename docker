@@ -30,7 +30,7 @@ cat <<EOF | sudo tee /etc/docker/daemon.json
   "storage-driver": "overlay2"
 }
 EOF
-exit
+
 
 # Restart Docker
 sudo systemctl daemon-reload
